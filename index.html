@@ -55,6 +55,33 @@
         text-decoration: none;
         color: #1a1a1a;
       }
+
+      @media (min-width: 1000px) {
+        body {
+          max-width: 1600px;
+          margin: 0 auto;
+        }
+
+        header {
+          flex-direction: row;
+        }
+
+        header li {
+          display: inline-block;
+        }
+
+        header h1, header nav {
+          flex: 1;
+        }
+
+        header h1 {
+          text-align: left;
+        }
+
+        header nav {
+          text-align: right;
+        }
+      }
     </style>
 
   </head>
