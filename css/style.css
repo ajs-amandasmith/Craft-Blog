@@ -103,4 +103,22 @@ td:nth-child(2) {
   header nav {
     text-align: right;
   }
+
+  /* blog */
+  .wrapper {
+    flex-direction: row;
+  }
+
+  main {
+    flex: 3;
+  }
+
+  aside {
+    flex: 1;
+    margin-left: 15px
+  }
+
+  article > header {
+    justify-content: space-between;
+  }
 }
